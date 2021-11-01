@@ -1,4 +1,5 @@
 ### Hi there 👋
+
 **Why am I here?** To support You with with your everyday life tasks when you're working with your computer (🖥) and... to make it  **personal** again.
 
 Have you noticed PC aka "personal computer" nowadays is no longer "personal"? Plenty of decisions are now taken by operating system developers without even informing us, users.  One day I realised that I can work more efficiently paying just couple minutes of my attention to how and what I am actually doing.
