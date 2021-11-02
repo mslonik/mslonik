@@ -12,8 +12,11 @@ Some basic ideas:
 - 👯 I’m looking to collaborate on projects related to boosting everyday efficiency.
 - 📫 How to reach me: just drop me an 📧 or find me on Signal instant messenger.
 - 👍 How can you support me: my account on Patreon [Patreon][]
+- [![Download Hotstrings][] SourceForge: [SourceForge][]
 
 [Patreon]: https://www.patreon.com/user?u=18185391 "mslonik@Patreon"
+[SourceForge]: https://hotstrings.sourceforge.io "mslonik@SourceForge"
+[![Download Hotstrings](https://sourceforge.net/sflogo.php?type=13&group_id=3441014)](https://sourceforge.net/p/hotstrings/)
 <!--
 **mslonik/mslonik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
