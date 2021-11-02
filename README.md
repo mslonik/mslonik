@@ -12,7 +12,7 @@ Some basic ideas:
 - 👯 I’m looking to collaborate on projects related to boosting everyday efficiency.
 - 📫 How to reach me: just drop me an 📧 or find me on Signal instant messenger.
 - 👍 How can you support me: my account on Patreon [Patreon][]
-- [![Download Hotstrings][] SourceForge: [SourceForge][]
+- 🖧 SourceForge: [SourceForge][]
 
 [Patreon]: https://www.patreon.com/user?u=18185391 "mslonik@Patreon"
 [SourceForge]: https://hotstrings.sourceforge.io "mslonik@SourceForge"
