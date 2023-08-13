@@ -10,9 +10,9 @@ Some basic ideas:
 
 - 🔭 I’m currently working on "Hotstrings" application which enable to create text abbreviations (aka triggerstrings) and corresponding text expansions (aka replacements).
 - 👯 I’m looking to collaborate on projects related to boosting everyday efficiency.
-- 📫 How to reach me: just drop me an 📧 or find me on This site was built using [Signal](https://signal.org/). instant messenger.
-- 👍 How can you support me: my account on Patreon [Patreon][]
-- 🖧 SourceForge: [SourceForge][]
+- 📫 How to reach me: just drop me an 📧 or find me on This site was built using [Signal](https://signal.org/) instant messenger.
+- 👍 How can you support me: my account on Patreon [Patreon][].
+- 🖧 SourceForge: [SourceForge][].
 
 [Patreon]: https://www.patreon.com/user?u=18185391 "mslonik@Patreon"
 [SourceForge]: https://hotstrings.sourceforge.io "mslonik@SourceForge"
