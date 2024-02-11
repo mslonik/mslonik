@@ -14,7 +14,7 @@ flowchart BT
     MacroKeyboard["`**UI3**: macro keyboard 🖮`"] 
 	screen["screen 🖵"] 
 	OperatingSystem["operating system ⊞"]
-	editor[e.g. editor ✔]
+	editor["editor ✔"]
 	TextPrediction["`**T1**: text prediction 📑`"]
 	TextExpansion["`**T2**: text expansion 📑`"]
     MacroProcessing["`**T3**: macro processing 📑`"]
@@ -75,7 +75,7 @@ flowchart BT
 	keyboard["`keyboard 🖮`"]
 	screen["screen 🖵"] 
 	OperatingSystem["operating system ⊞"]
-	editor[e.g. editor ✔]
+	editor["editor ✔"]
 
     user	-->	 |typing| keyboard
 
@@ -99,7 +99,7 @@ flowchart BT
     MacroKeyboard["`**UI3**: macro keyboard 🖮`"] 
 	screen["screen 🖵"] 
 	OperatingSystem["operating system ⊞"]
-	editor[e.g. editor ✔]
+	editor["editor ✔"]
 
     user	-->	 |typing| keyboard
     user	-->	 |typing| pedals
@@ -134,7 +134,7 @@ flowchart BT
 	keyboard["`keyboard 🖮`"]
 	screen["screen 🖵"] 
 	OperatingSystem["operating system ⊞"]
-	editor[e.g. editor ✔]
+	editor["editor ✔"]
 	TextPrediction["`**T1**: text prediction 📑`"]
 	TextExpansion["`**T2**: text expansion 📑`"]
     MacroProcessing["`**T3**: macro processing 📑`"]
