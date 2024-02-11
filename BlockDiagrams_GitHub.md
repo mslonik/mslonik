@@ -1,7 +1,7 @@
-**Info**: This formatiing works exclusively for Markdown GitHub renderer.
+**Info**: This formatting works exclusively for Markdown GitHub renderer. There is a separate file *BlockDiagrams_VSC.md* which is formatted a bit differently, according to renderer rules of Visual Studio Code (VSC).
 ___
 
-### New approach:
+### Proposed approach
 
 ```mermaid
 %% new approach
@@ -13,9 +13,9 @@ flowchart BT
 	screen["screen 🖵"] 
 	OperatingSystem["operating system ⊞"]
 	editor["editor ✔"]
-	TextPrediction["T1: text prediction 📑"]
-	TextExpansion["T2: text expansion 📑"]
-    MacroProcessing["T3: macro processing 📑"]
+	TextPrediction["T1: text prediction app 📑"]
+	TextExpansion["T2: text expansion app 📑"]
+    MacroProcessing["T3: macro processing app 📑"]
 
     user	-->	 |typing| keyboard
     user	-->	 |typing| pedals
@@ -62,7 +62,7 @@ flowchart BT
 ```
 ___
 
-### Default / old approach:
+### Default / old approach
 
 ```mermaid
 %% default / old approach
@@ -84,7 +84,7 @@ flowchart BT
 ```
 ___
 
-### Hybrid approach, programmable input devices:
+### Hybrid approach, programmable input devices only
 
 ```mermaid
 %% hybrid approach 1
@@ -121,7 +121,7 @@ flowchart BT
 
 ___
 
-### Hybrid approach, additional applications
+### Hybrid approach, additional applications only
 
 ```mermaid
 %% hybrid approach 2
@@ -131,9 +131,9 @@ flowchart BT
 	screen["screen 🖵"] 
 	OperatingSystem["operating system ⊞"]
 	editor["editor ✔"]
-	TextPrediction["T1: text prediction 📑"]
-	TextExpansion["T2: text expansion 📑"]
-    MacroProcessing["T3: macro processing 📑"]
+	TextPrediction["T1: text prediction app 📑"]
+	TextExpansion["T2: text expansion app 📑"]
+    MacroProcessing["T3: macro processing app 📑"]
 
     user	-->	 |typing| keyboard
     
