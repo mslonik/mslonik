@@ -1,7 +1,5 @@
-<link
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  rel="stylesheet"
-/>
+**Info**: This formatiing works exclusively for Markdown GitHub renderer.
+___
 
 ### New approach:
 
@@ -9,41 +7,41 @@
 %% new approach
 flowchart BT
 	user["user🛉"]
-	keyboard["`**UI1**: keyboard 🖮`"]
-	pedals["`**UI2**: pedals 🖮`"]
-    MacroKeyboard["`**UI3**: macro keyboard 🖮`"] 
+	keyboard["UI1: keyboard 🖮"]
+	pedals["UI2: pedals 🖮"]
+    MacroKeyboard["UI3: macro keyboard 🖮"] 
 	screen["screen 🖵"] 
 	OperatingSystem["operating system ⊞"]
 	editor["editor ✔"]
-	TextPrediction["`**T1**: text prediction 📑`"]
-	TextExpansion["`**T2**: text expansion 📑`"]
-    MacroProcessing["`**T3**: macro processing 📑`"]
+	TextPrediction["T1: text prediction 📑"]
+	TextExpansion["T2: text expansion 📑"]
+    MacroProcessing["T3: macro processing 📑"]
 
     user	-->	 |typing| keyboard
     user	-->	 |typing| pedals
     user    -->  |press| MacroKeyboard
     
-    subgraph programmable input devices
+    subgraph "programmable input devices"
         keyboard
         pedals
         MacroKeyboard
     end
 
-    subgraph "`**Personal Computer**`"
+    subgraph "Personal Computer"
         
         style TextPrediction 	fill:lightblue
         style TextExpansion 	fill:lightblue
         style MacroProcessing   fill:lightblue, stroke-dasharray:5
 
-        subgraph "`**AutoHotkey** applications`"
+        subgraph "AutoHotkey applications"
             TextPrediction
         end
 
-        subgraph "`**AutoHotkey** applications`"
+        subgraph "AutoHotkey applications"
             TextExpansion
         end
 
-        subgraph "`**AutoHotkey** macros`"
+        subgraph "AutoHotkey macros"
             MacroProcessing
         end
    
@@ -66,20 +64,18 @@ ___
 
 ### Default / old approach:
 
-Description:
-
 ```mermaid
 %% default / old approach
 flowchart BT
 	user["user🛉"]
-	keyboard["`keyboard 🖮`"]
+	keyboard["keyboard 🖮"]
 	screen["screen 🖵"] 
 	OperatingSystem["operating system ⊞"]
 	editor["editor ✔"]
 
     user	-->	 |typing| keyboard
 
-    subgraph "`**Personal Computer**`"
+    subgraph "Personal Computer"
 	    OperatingSystem		--> 	editor
     end
 
@@ -94,9 +90,9 @@ ___
 %% hybrid approach 1
 flowchart BT
 	user["user🛉"]
-	keyboard["`**UI1**: keyboard 🖮`"]
-	pedals["`**UI2**: pedals`"]
-    MacroKeyboard["`**UI3**: macro keyboard 🖮`"] 
+	keyboard["UI1: keyboard 🖮"]
+	pedals["UI2: pedals"]
+    MacroKeyboard["UI3: macro keyboard 🖮"] 
 	screen["screen 🖵"] 
 	OperatingSystem["operating system ⊞"]
 	editor["editor ✔"]
@@ -105,13 +101,13 @@ flowchart BT
     user	-->	 |typing| pedals
     user    -->  |press| MacroKeyboard
     
-    subgraph programmable input devices
+    subgraph "programmable input devices"
         keyboard
         pedals
         MacroKeyboard
     end
 
-    subgraph "`**Personal Computer**`"
+    subgraph "Personal Computer"
         
         OperatingSystem		--> 	editor
     end
@@ -131,31 +127,31 @@ ___
 %% hybrid approach 2
 flowchart BT
 	user["user🛉"]
-	keyboard["`keyboard 🖮`"]
+	keyboard["keyboard 🖮"]
 	screen["screen 🖵"] 
 	OperatingSystem["operating system ⊞"]
 	editor["editor ✔"]
-	TextPrediction["`**T1**: text prediction 📑`"]
-	TextExpansion["`**T2**: text expansion 📑`"]
-    MacroProcessing["`**T3**: macro processing 📑`"]
+	TextPrediction["T1: text prediction 📑"]
+	TextExpansion["T2: text expansion 📑"]
+    MacroProcessing["T3: macro processing 📑"]
 
     user	-->	 |typing| keyboard
     
-    subgraph "`**Personal Computer**`"
+    subgraph "Personal Computer"
         
         style TextPrediction 	fill:lightblue
         style TextExpansion 	fill:lightblue
         style MacroProcessing   fill:lightblue, stroke-dasharray:5
 
-        subgraph "**AutoHotkey applications**"
+        subgraph "AutoHotkey applications"
             TextPrediction
         end
 
-        subgraph "`**AutoHotkey** applications`"
+        subgraph "AutoHotkey applications"
             TextExpansion
         end
    
-        subgraph "`**AutoHotkey** macros`"
+        subgraph "AutoHotkey macros"
             MacroProcessing
         end
 

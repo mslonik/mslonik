@@ -8,7 +8,7 @@ My name is Maciej Słojewski aka słonik (🐘 in Polish) and I'm here to share 
 
 Some basic ideas:
 
-- 🔭 My roadmap, explaining what I want to accomplish, in visual form, could be find [there](BlockDiagrams_AHK.md).
+- 🔭 My roadmap, explaining what I want to accomplish, in visual form, could be find [there](BlockDiagrams_GitHub.md).
 - 👯 I’m looking to collaborate on projects related to boosting everyday efficiency.
 - 📫 How to reach me: just drop me an 📧 or find me on [Signal](https://signal.org/) instant messenger.
 - 👍 How can you support me: [Patreon][].
