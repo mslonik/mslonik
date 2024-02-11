@@ -12,12 +12,12 @@ flowchart BT
 	keyboard["`**UI1**: keyboard 🖮`"]
 	pedals["`**UI2**: pedals 🖮`"]
     MacroKeyboard["`**UI3**: macro keyboard 🖮`"] 
-	screen[screen fa:fa-display]
-	OperatingSystem[operating system <i class="fa-brands fa-windows"></i>]
-	editor[e.g. editor fa:fa-spell-check]
-	TextPrediction["`**T1**: text prediction fa:fa-file-code`"]
-	TextExpansion["`**T2**: text expansion fa:fa-file-code`"]
-    MacroProcessing["`**T3**: macro processing fa:fa-file-code`"]
+	screen["screen 🖵"] 
+	OperatingSystem["operating system ⊞"]
+	editor[e.g. editor ✔]
+	TextPrediction["`**T1**: text prediction 📑`"]
+	TextExpansion["`**T2**: text expansion 📑`"]
+    MacroProcessing["`**T3**: macro processing 📑`"]
 
     user	-->	 |typing| keyboard
     user	-->	 |typing| pedals
@@ -73,9 +73,9 @@ Description:
 flowchart BT
 	user["user🛉"]
 	keyboard["`keyboard 🖮`"]
-	screen[screen fa:fa-display]
-	OperatingSystem[operating system fa:fa-windows]
-	editor[editor fa:fa-spell-check]
+	screen["screen 🖵"] 
+	OperatingSystem["operating system ⊞"]
+	editor[e.g. editor ✔]
 
     user	-->	 |typing| keyboard
 
@@ -97,9 +97,9 @@ flowchart BT
 	keyboard["`**UI1**: keyboard 🖮`"]
 	pedals["`**UI2**: pedals`"]
     MacroKeyboard["`**UI3**: macro keyboard 🖮`"] 
-	screen[screen fa:fa-display]
-	OperatingSystem[operating system fa:fa-windows]
-	editor[editor fa:fa-spell-check]
+	screen["screen 🖵"] 
+	OperatingSystem["operating system ⊞"]
+	editor[e.g. editor ✔]
 
     user	-->	 |typing| keyboard
     user	-->	 |typing| pedals
@@ -132,12 +132,12 @@ ___
 flowchart BT
 	user["user🛉"]
 	keyboard["`keyboard 🖮`"]
-	screen[screen fa:fa-display]
-	OperatingSystem[operating system fa:fa-windows]
-	editor[editor fa:fa-spell-check]
-	TextPrediction["`**T1**: text prediction fa:fa-file-code`"]
-	TextExpansion["`**T2**: text expansion fa:fa-file-code`"]
-    MacroProcessing["`**T3**: macro processing fa:fa-file-code`"]
+	screen["screen 🖵"] 
+	OperatingSystem["operating system ⊞"]
+	editor[e.g. editor ✔]
+	TextPrediction["`**T1**: text prediction 📑`"]
+	TextExpansion["`**T2**: text expansion 📑`"]
+    MacroProcessing["`**T3**: macro processing 📑`"]
 
     user	-->	 |typing| keyboard
     
