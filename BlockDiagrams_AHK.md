@@ -61,10 +61,12 @@ ___
 
 ### Default / old approach:
 
+Description:
+
 ```mermaid
 %% default / old approach
 flowchart BT
-	user[user🛉]
+	user["user🛉"]
 	keyboard["`keyboard 🖮`"]
 	screen[screen fa:fa-display]
 	OperatingSystem[operating system fa:fa-windows]
@@ -123,7 +125,7 @@ ___
 ```mermaid
 %% hybrid approach 2
 flowchart BT
-	user[user🛉]
+	user["user🛉"]
 	keyboard["`keyboard 🖮`"]
 	screen[screen fa:fa-display]
 	OperatingSystem[operating system fa:fa-windows]
