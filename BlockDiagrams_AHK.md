@@ -13,7 +13,7 @@ flowchart BT
 	pedals["`**UI2**: pedals 🖮`"]
     MacroKeyboard["`**UI3**: macro keyboard 🖮`"] 
 	screen[screen fa:fa-display]
-	OperatingSystem[operating system fa:fa-windows]
+	OperatingSystem[operating system fa-brands fa-windows]
 	editor[e.g. editor fa:fa-spell-check]
 	TextPrediction["`**T1**: text prediction fa:fa-file-code`"]
 	TextExpansion["`**T2**: text expansion fa:fa-file-code`"]
