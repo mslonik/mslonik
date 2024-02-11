@@ -58,6 +58,7 @@ flowchart BT
         editor	            -->     screen
 ```
 ___
+
 ### Default / old approach:
 
 ```mermaid
@@ -116,6 +117,7 @@ flowchart BT
 ```
 
 ___
+
 ### Hybrid approach, additional applications
 
 ```mermaid
