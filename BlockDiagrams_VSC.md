@@ -1,11 +1,13 @@
 **Info**: The Markdown style applied in this file is correctly rendered in Visual Studio Code (VSC), but not on GitHub, which doesn't allow any classes. From the other hand the VSC renderer doesn't allow mixing of HTML code with Markdown within []. To see the code formatted for GitHub see [BlockDiagrams_VSC.md][].
 
+___
+
 # Introduction
 This article shows a general vision, overview of hardware and software tools useful to reduce work overhead with Personal Computer (PC).
 
 ## Why it is important?
 
-I mainly type, each day. This is a core and chore of my everyday professional and private life. On average I press daily between 15 000 ÷ 25 000 keyboard keys. Any reduction is welcomed, what would save both: time and effort.
+I mainly type, each day, both on time of my work and leasure. This is a core and chore of my everyday professional and private life. On average I press daily between 15 000 ÷ 25 000 keyboard keys. Any reduction is welcomed, what would save both: time and effort of my life.
 
 ## What we can do about it?
 
@@ -166,7 +168,7 @@ ___
 
 # The new approach
 
-The new approach gathers all together all of the above proposals into one **system**: your truly **personal computer**.
+The new approach gathers all together all of the above proposals into one **system**: your truly **personal computer**. In other words, there is much to be improved with relatively low cost tools.
 
 ```mermaid
 %% new approach
