@@ -1,28 +1,30 @@
-﻿**Info**: This formatting works exclusively for Markdown GitHub renderer. There is a separate file *[BlockDiagrams_VSC.md][]* which is formatted a bit differently, according to renderer rules of Visual Studio Code (VSC).
+﻿**Info**: The formatting of this document works exclusively for the Markdown GitHub renderer. There is a separate file *[BlockDiagrams_VSC.md][]* which is formatted a bit differently, according to renderer rules of Visual Studio Code (VSC).
 ___
 
 # Introduction
-This article shows a general vision, overview of hardware and software tools useful to reduce work overhead with Personal Computer (PC).
+This article presents a general vision, an overview of hardware and software tools useful to reduce the overhead with a Personal Computer (PC).
 
 ## Why it is important?
 
-I mainly type, each day, both on time of my work and leasure. This is a core and chore of my everyday professional and private life. On average I press daily between 15 000 ÷ 25 000 keyboard keys. Any reduction is welcomed, what would save both: time and effort of my life.
+I type a lot, every day, both on the job and in my spare time. It is a core and chore part of professional and personal life. On average, I press between 15,000 and 25,000 keystrokes a day. Any reduction is welcome, as it would save both time and effort in my life.
 
-## What we can do about it?
+## What can we do about it?
 
-A lot. We can can change our working habit, apply additional / dedicated software, use additional hardware. What would be actually really effective is combination of all already mentioned features. But not all at the same time, so let's dive in to examine, what is really possible and what could be effective to you.
+We can do a lot. We can can change our working habits, use additional / special software, use additional hardware. What would really be effective is combination of all of the above. But not all at the same time, so let's look at what is really possible and choose what could be effective for you.
 
-## Micro habits are hard to be changed
+## Micro habits are hard to change
 
-How we use our keyboards and mouses definitely could be called micro habits. Maybe some of you have been thought how to type without looking onto keyboard (so called touch typing). Maybe some of you use mainly shortcuts to quickly finish some operations. Maybe you just try to finish your job. Let's just ask ourselves, where we are.
+The way we use our keyboard and mouse could definitely be called micro habits. Maybe some of you have thought about how to type without looking at the keyboard (called touch typing). Maybe some of you mainly use shortcuts to get things done quickly. Maybe you just type and move your mouse without thinking about efficicency and optimisation, just to get the job done. Let's just ask ourselves honestly where we are.
 
-Actually our live is about adjusting, customizing, changing: ourselves, our environment to ourselves. This task is still left aside starting from upbringing, through education. We are not thought how to imply a change in our life. This is about self-management, so it requires measurment, closing a loop, which let's us control where we are, how far we are from our values and goals. Definitely this is a subject outgoing far from the subject of this article. Nevertheless, you've been warned: it is uneasy.
+In fact, our live is about adapting, changing: ourselves, our environment to ourselves. This task is still left aside starting from upbringing, through education. We are not thought about how to imply a change in our life. It's about self-management, so it requires measurement, closing a loop that lets us control where we are, how far we are from our values and goals. This is definitely a subject that is far from the subject of this article. Nevertheless, you've been warned: it is at least uncomfortable.
 
 # Where we are today, a traditional approach
 
-The traditional approach is shown in Figure 1. A **user 🛉** enters information by typing on common, non-programmable **keyboard 🖮** and/or by moving, pointing and clicking a **mouse 🖱**. The keyboard and mouse are connected via serial interface (e.g. USB) to **Personal Computer**. There information is processed by an **operating system ⊞** (e.g. Microsoft Windows) and dedicated application, e.g. likely text **editor ✓**. Next, after processing, a result is displayed on a **screen 🖵**. What is not shown, to bring simplicity, is a feedback coming from what we, as a **user 🛉**, see on a **screen 🖵** to our mind, then it is processed and something new is entered by **keyboard 🖮** and/or **mouse 🖱** again, closing a loop.
+The traditional approach is illustrated in Figure 1. A **user 🛉** enters information by typing on a conventional non-programmable **keyboard 🖮** and/or by moving, pointing and clicking a **mouse 🖱**. The keyboard and mouse are connected to the **Personal Computer** via a serial interface (e.g. USB). There the information is processed by an **operating system ⊞** (e.g. Microsoft Windows) and a dedicated application, e.g. probably a text **editor ✓**. After processing, the result is displayed on a **screen 🖵**. What is not shown, for simplicity sake, is feedback from what we as a **user 🛉** see on a **screen 🖵** to our mind, then it is processed and something new is entered by **keyboard 🖮** and/or **mouse 🖱** again, closing a loop.
 
-Nothing fancy, I suppose. I was there as well and know this picture well. Out of a box, the vast majority of everyday tasks can be accomplished just by application of the means presented in **Figure 1**. Isn't it?
+Nothing fancy, I suppose. I was there, too, and know this image well. Out of a box, the vast majority of everyday tasks can be accomplished simply by applying the tools shown in **Figure 1**. Aren't they?
+
+First of all, it's good to know how much you type and move your mouse on a daily basis. Surprisingly, the answer to this question is not so easy to find. Operating systems do not provide this information. The reason is simple: to tell you, how many keys you are pressing, they have to store this information in memory. As long as we enter passwords and other, sometimes sensitive, information into our computers by typing, there is always a risk that non-transparent software will make unwatend use of the recorded infomation. 
 
 ```mermaid
 %% default / old approach
@@ -51,16 +53,16 @@ ___
 
 # The Hybrid approach, additional applications
 
-Modern operating systems are flexible enough to run several software applications at the same time. Let's then apply additional software, as in **Figure 2**:
+Modern operating systems are flexible enough to run multiple software applications at the same time. So let's use additional software, as shown in **Figure 2**:
 - **T1**: text prediction 📑
 - **T2**: text expansion 📑
 - **T3**: macro processing 📑
 
-The **text prediction** is a category of applications, which try to guess what a next word you're trying to type. The hints are displayed nearby of a text cursor or mouse pointer, to let you quickly select, if an appropriate word is spotted by you among the hinted ones.
+Predictive text input is a category of applications that try to guess what you're going to type next. The hints are displayed near a text cursor or mouse pointer so that you can quickly select a proper word if you see one of the hints.
 
-The **text expantion** is a category of applications, which keep in computer memory already defined short text definitions, which can be automatically expanded into much longer pieces of text. The existing definitions can be displayed as a hint to user, based on letters which you've typed already. For example short text definition `e@` can be expanded into `your.e-maildress@whatever.com`.
+Text expantion is a category of applications that store short text definitions in the computer's memory that can be automatically expanded into much longer pieces of text. The existing short text definitions aka text triggerstrings can be displayed as a hint to you, based on letters you've typed already. For example, the short text definition `e@` can be expanded to `your.e-maildress@whatever.com`.
 
-The **macro processing** is a category of application, which can even apply dedicated piece of hardware, if necessary. Usually we work with the same applications. Usually they enable us to reach all necessary functions over menu, then submenu, then next submenu. Sometimes it is not possible to customize Graphical User Interface of such application in a way we could reach desired function easily. Then specialized tools comes in hand, which enable storing in computer memory a sequence / combinations of pressed keyboard keys, mouse movements and clicks. Next you can quickly run the whole sequence upon single key press, e.g. `F9`. This category sometimes comes with assisstance of a dedicated keyboard or touch screen, what for clarity is not shown on this picture.
+The macro processing is a category of applications that can even use dedicated hardware if necessary. We usually work with the same applications each day. Usually they allow us to access all the functions we need through a menu, then a sub-menu, then another sub-menu. Sometimes it is not possible to customise graphical user interface of such an application in such a way that we could easily reach the desired function. This is when specialised tools come in handy, allowing you to store  a sequence / combinations of pressed keyboard keys, mouse movements and clicks in the computer's memory. Then you can quickly execute the whole sequence by pressing a single key, such as `F9`. This category sometimes comes with the aid of a dedicated keyboard or touch screen, which is not shown in the following picture for clarity.
 
 ```mermaid
 %% hybrid approach 2
@@ -245,11 +247,11 @@ ___
 
 # What I'm working on? What's my solution to above challenges?
 
-First, it's good to know how much do you type and move your mouse daily. Surprisingly anser to this question is not so easy to be answered. Operating systems do not deliver such information. The reason for that is quite simple: to tell you, how many keys do you press, they must to keep this information in memory. As long as we enter passwords and any other, sometimes sensitive, information to our coputers by typing, there is always a risk that not-transparent software will make unwatend use of recorded infomation. 
+Below you can find some hints and proposals from my side. These are mainly tools which I use everyda.
 
-## How many times do you press your keyboard keys: KeyboardStats
+## How many times do you press your keyboard keys and what is a distance travelled by your mouse body?
 
-As I don't trust fully to any existing "key loggers", I wrote one by myself. This is only a script, so it doesn't run by itself. It is called **[KeyboardStats][]** and at the moment is able to provide statistics about keyboard keys pressed. (In a future I plan to add information coming also from your mouse). The script is written in [AutoHotkey][] scripting language and published at GitHub.
+As I don't trust fully to any existing "key loggers", I wrote one by myself. This is only a script, so it doesn't run by itself. It is called **[KeyboardStats][]** and at the moment is able to provide statistics about keyboard keys pressed. It also estimates whas is a distance travelled by your mouse over a surface. The script is written in [AutoHotkey][] scripting language and published at GitHub.
 
 ## Text expansion tool: Hotstrings
 
