@@ -119,11 +119,11 @@ It is possible to gain additional level of freedom and customization by applicat
 - **UI2**: pedals
 - **UI3**: macro keyboard 🖮
 
-The (programmable) **keyboard** lets you to customize it according to your liking. For example perhaps you would like to use sequences, which replace opening bracket, e.g. `(` with sequence of pair bracket `()` and additionally move back position of cursor by one character to place it in between both brackets, to make you ready for typing? Or maybe you would like to place permanently question mark character `?` in position of square bracket key `]`: `?` → `]`? Or maybe you would like to experiment with different keyboard layout and instead of the default one, `qwerty` use for example `Dvorak`? All of this and much more is possible, if you can reprogram your keyboard, which will start to be **yours**.
+The (programmable) **keyboard** lets you to customize it to your liking. For example you might want to use sequences that replace opening parenthesis, e.g. `(` with a sequence of pairs of parenthesis `()`, and then move the cursor back one character to place it between the two parenthesis so that you are ready to type? Or maybe you want to permanently place the question mark character `?` in the position of the square bracket key `]`: `?` → `]`? Or maybe you want to experiment with different keyboard layouts and use for example `Dvorak` instead of the default `qwerty`? All this and much more is possible if you can reprogram your keyboard to become **your keyboard**.
 
-The (programmable) **pedals** are actually a kind of keyboard. Usually it has 1÷3 big "keys", ready to be pressed by foot. They are excellent for well defined keyboard shortcuts. For example left one can be used for copying (`control + C`), middle for cutting (`control + V`), the right one for pasting (`control + V`). Or you can use them for selecting the right hint coming from **text prediction** software application, mentioned in the section above.
+The (programmable) **pedals** are actually a kind of keyboard. They usually have 1÷3 big "keys" that you can press with your foot. They are excellent for well-defined keyboard shortcuts. For example, the left one can be used to copy (`Control + C`), the middle one to cut (`Control + X`), and the right one to paste (`Control + V`). Or you can use them to select the correct hint from the **text prediction** software application, mentioned in the section above.
 
-The (programmable) **macro keyboard** actually can be a dedicated "second" keyboard, but more practical would be even a small touch screen. Then you have much more flexibility in case you would like to change an icon or arrangement of keys. The macro keyboard is not for typing, but for occassional pressing the right key, which runs previously recorded set actions, like key presses, mouse clicks etc.
+The (programmable) **macro keyboard** can actually be a dedicated "second" keyboard, but even more practical would be a small touch screen. This gives you much more flexibility if you want to change an icon or key layout. The macro keyboard is not for typing, but for occassional pressing the right key to perform pre-recorded actions, such as keystrokes, mouse clicks etc.
 
 ```mermaid
 %% hybrid approach 1
@@ -165,7 +165,7 @@ ___
 
 # The new approach
 
-The new approach gathers all together all of the above proposals into one **system**: your truly **personal computer**. In other words, there is much to be improved with relatively low cost tools.
+The new approach combines all the above suggestions into one **system**: your true **personal computer**. In other words, there is a lot be improved with relatively inexpensive tools.
 
 ```mermaid
 %% new approach
@@ -233,47 +233,45 @@ ___
 
 # Typing: serial vs. chording
 
-What you or me, so called **user 🛉**, can do? As usually, a lot.
+The nature of the vast majority of computer keyboards is based on the old idea of **typewriter**: serialised input of characters. So if the characters did not come one after another, not serially, the mechanical arms of the typewriter jammed. For reasons not fully understood, this way of typing has accompanied our civilization to this day.
 
-The nature of vast majority of computer keyboards is based on old idea of **typing machine**: serialized entering the characters. So if characters were not coming one after another, not serially, the mechanical arms of type writer jammed. For not fully understood reasons this way of typing accompany to our civilization till theese days.
+There is an alternative. Let's think for a moment about a piano keyboard: 🎹. We produce sounds by pressing a few keys at the same time. Thanks to this, a produced sound is to some extent a reacher. This sound is usually called a **chord**. Of course we can play serially on a piano keyboard, but we can hear that we get more by pressing the keys simultaneously.
 
-There is an alternative. Let's think for a moment about a piano keyboard: 🎹. We produce sounds by parallel, concurrent pressing of few keys. Thanks to that a produced sound is to some degree reacher. That sound is usually called a **chord**. Of course we can play on a piano keyboard serially, but we can hear that we gain more if keys are pressed concurrently.
+The same idea could be applied for typing text. Pressing the computer keyboard at the same time would create words. Thanks to this solution we can type faster. This way of entering information is called [stenotyping][]. It usually requires special hardware and software. There is an open software and hardware project to learn this skill called the [Open Steno Project][]. And there are also commercial solutions, such as [CharaCorder][]
 
-The same idea actually could be applied for typing of text. Then concurrent presses of computer keyboard would produce words. Thanks to this solution we can type faster. This way of entering information is called [stenotyping][]. To get there usually a dedicated hardware and software are required. There is an open software and hardware project which enable learning this skill called [Open Steno Project][]. And there are also commercial solutions, like [CharaCorder][]
-
-So before considering if it worth to start your journey with learning of [touch typing][], consider alternatives.
+So before you consider whether it is worth starting your journey by learning of [touch typing][], consider the alternatives.
 
 ___
 
-# What I'm working on? What's my solution to above challenges?
+# What am I working on? What's my solution to the above challenges?
 
-Below you can find some hints and proposals from my side. These are mainly tools which I use everyda.
+Below are some tips and suggestions from my side. These are mainly tools that I use every day.
 
 ## How many times do you press your keyboard keys and what is a distance travelled by your mouse body?
 
-As I don't trust fully to any existing "key loggers", I wrote one by myself. This is only a script, so it doesn't run by itself. It is called **[KeyboardStats][]** and at the moment is able to provide statistics about keyboard keys pressed. It also estimates whas is a distance travelled by your mouse over a surface. The script is written in [AutoHotkey][] scripting language and published at GitHub.
+As I don't fully trust existing "key loggers", I wrote one myself. This is just a script, so it doesn't run by itself and it is fully transparent, if you wish to examine it. It is called **[KeyboardAndMouseStats][]** and is currently able to provide statistics about the keys pressed. It also estimates the distance your mouse has moved over a surface. The script is written in [AutoHotkey][] scripting language and published on GitHub.
 
 ## Text expansion tool: Hotstrings
 
-The **Hotstrings** application is my personal attempt to build the best in the world **text expansion** application. It is available in two releases: [Hotstrings free][] is publicly available at GitHub. The [Hotstrings commercial][] is available on dedicated web site. Both releeases are written in [AutoHotkey][] scripting language.
+The **Hotstrings** application is my personal attempt to create the best **text expansion** application in the world. It is available in two versions: [Hotstrings free][] is publicly available on GitHub. The [Hotstrings commercial][] is available on a dedicated website. Both releeases are written in the scripting language [AutoHotkey][].
 
 ## Macro keyboard: Otagle
 
-I have few attempts to build and use also macro keyboard. My latest approach to this subject is [Otagle][] script, which uses small, dedicated touch screen for that purppose.
+I have few attempts to build and use a macro keyboard. My latest approach is [Otagle][] script, which uses a small, dedicated touch screen for this purppose.
 
 ## Text prediction tool: TypingAid 
 
-This isn't my application, but I recommend to try it. Written entirely in [AutoHotkey][], the [TypingAid][] let's you for free test if text prediciton is for you. Who knows, maybe in future I'll dive deepter to author this application as well, because currently it conflicts with **Hotstrings**.
+This is not my application, but it's worth a try. Written entirely in [AutoHotkey][], the [TypingAid][] is a free way  to see if predictive text input is for you. Who knows, maybe in future I'll delve deeper into writing this application as well, as it currently conflicts with **Hotstrings**.
 
 ## Programmable keyboards
 
-For everyday life I still use "traditional" 60 % mechanical keyboard which is not even programmable. For time being I cover some of its deficiences with [AutoHotkey][] scripts, especially with **Hotstrings**. 
+For everyday use I still use a "traditional" 60% mechanical keyboard, which is not even programmable. For the time being I cover some of its shortcomings with [AutoHotkey][] scripts, especially with **Hotstrings**. 
 
-My plan for coming months is to build fully ergonomic 32 keys only keyboard, programmable with [QMK firmware][].
+My plan for the coming months is to build a fully ergonomic 32-keys-only keyboard, programmable with [QMK firmware][].
 
 ___
 
-Thank you for your reading. This article is a kind of overview and also manifest of what I'll try to do. If you feel this could be beneficial also for you, let's get into touch.
+Thanks for reading. This article is a kind of overview and also manifesto of what I'm trying to do. If you think this could be useful for you, let's get in touch.
 
 [BlockDiagrams_VSC.md]: /BlockDiagrams_VSC.md
 [stenotyping]: https://en.wikipedia.org/wiki/Stenotype
@@ -281,7 +279,7 @@ Thank you for your reading. This article is a kind of overview and also manifest
 [CharaCorder]: https://www.charachorder.com/
 [touch typing]: https://en.wikipedia.org/wiki/Touch_typing
 [AutoHotkey]: https://www.autohotkey.com/
-[KeyboardStats]: https://github.com/mslonik/KeyboardStats
+[KeyboardAndMouseStats]: https://github.com/mslonik/KeyboardAndMouseStats
 [Hotstrings free]: https://github.com/mslonik/Hotstrings
 [Hotstrings commercial]: https://hotstrings.technology/
 [Otagle]: https://github.com/mslonik/Otagle
